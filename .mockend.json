@@ -4,6 +4,12 @@
       "loremWords": { "minLength": 15, "maxLength": 30 }
     },
     "priority": { "int": [100,10,1] },
-    "state": { "string": ["completed","incomplete"] }
+    "state": { "string": ["completed","incomplete"] },
+    "createdAt": {
+      "dateTime": {
+        "min": "2022-09-01T00:00:00Z",
+        "max": "2022-09-06T14:59:59Z"
+      }
+    }
   }
 }
