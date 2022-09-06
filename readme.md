@@ -1,7 +1,7 @@
 # API documentation
 
 GET - all tasks
-- https://mockend.com/mockend/demo/posts
+- https://mockend.com/kelechijio/api-for-wazzy/tasks
 ```
  {
     "createdAt": "2022-09-05T17:40:20Z",
@@ -20,7 +20,7 @@ GET - all tasks
 ```
 
 GET - task by ID
-- https://mockend.com/mockend/demo/posts/1
+- https://mockend.com/kelechijio/api-for-wazzy/tasks/1
 
 ```
  {
@@ -36,7 +36,7 @@ GET - sort tasks (priority)
 > priority 100 represents very important  
 > priority 10 represents important  
 > priority 1 represents not important
-- https://mockend.com/mockend/demo/posts?priority_eq= [100 | 10 | 1]
+- https://mockend.com/kelechijio/api-for-wazzy/tasks?priority_eq= [100 | 10 | 1]
 
 ```
  {
@@ -56,7 +56,7 @@ GET - sort tasks (priority)
 ```
 
 GET - sort tasks (state)
-- https://mockend.com/mockend/demo/posts?state_eq= [completed | incomplete]
+- https://mockend.com/kelechijio/api-for-wazzy/tasks?state_eq= [completed | incomplete]
 ```
  {
     "createdAt": "2022-09-05T17:40:20Z",
