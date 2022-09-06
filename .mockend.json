@@ -1,5 +1,9 @@
 {
-  "User": {
-    "title": { "string": {} }
+  "Tasks": {
+    "title": { "string": {
+      "loremWords": { "minLength": 15, "maxLength": 30 }
+    } },
+    "priority": { "string": [100,10,1] },
+    "state": { "string": ["completed","incomplete"] }
   }
 }
