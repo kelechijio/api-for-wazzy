@@ -1,9 +1,9 @@
 {
   "Tasks": {
-    "title": { "string": {
+    "title": {
       "loremWords": { "minLength": 15, "maxLength": 30 }
-    } },
-    "priority": { "string": [100,10,1] },
+    },
+    "priority": { "string": ["100","10","1"] },
     "state": { "string": ["completed","incomplete"] }
   }
 }
