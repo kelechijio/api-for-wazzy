@@ -1,5 +1,5 @@
 {
-  "Tasks": {
+  "Task": {
     "title": {
       "loremWords": { "minLength": 15, "maxLength": 30 }
     },
